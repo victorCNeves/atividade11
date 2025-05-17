@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: "Chakra Petch";
+    src: url(ChakraPetch-Bold.ttf);
+}
 
 body{
     background: #010810;
@@ -41,7 +44,7 @@ main{
 
 #linha{
     position: absolute;
-    bottom: 5vh;
+    bottom: 15vh;
     width: 60%;
 }
 
@@ -52,5 +55,12 @@ main{
 
 #frontEnd{
     width: 10vw;
-    margin-bottom: 3vh;
+    margin-bottom: 3vh;    
+    transition: transform 0.5s;
+}
+
+#frontEnd:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: transform 0.5s;
 }
