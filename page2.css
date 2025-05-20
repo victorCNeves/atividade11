@@ -8,7 +8,7 @@
   padding: 0;
 }
 
-body {
+.body-sobre-mim {
   box-sizing: border-box;
   height: 100vh;
   background-color: #000000;
@@ -18,12 +18,12 @@ body {
   justify-content: center;
 }
 
-main {
+.container-sobre-mim {
   display: flex;
   align-items: center;
 }
 
-section {
+.conteudo-sobre-mim {
   width: 30vw;
   display: flex;
   flex-direction: column;
@@ -31,30 +31,30 @@ section {
   gap: 5.69vh;
 }
 
-h1 {
+.titulo-sobre-mim {
   font-weight: 400;
   font-size: 1.8vw;
   font-family: "Krona One";
 }
 
-strong {
+.titulo-destaque {
   color: #22d4fd;
 }
 
-p {
+.paragrafo-sobre-mim {
   text-align: justify;
   font-size: 1.2vw;
   font-family: "Montserrat", sans-serif;
 }
 
-div {
+.links-sobre-mim {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 2vw;
 }
 
-a {
+.link-sobre-mim {
   background-color: #22d4fd;
   width: 14vw;
   text-align: center;
@@ -68,7 +68,7 @@ a {
   transition: 0.5s;
 }
 
-a:hover{
+.link-sobre-mim:hover{
   background-color: #000000;
   color: #22d4fd;
   transition: 0.5s;
@@ -79,7 +79,7 @@ a:hover{
   color: #22d4fd;
 }
 
-img{
+.imagem-perfil {
   height: 49vh;
 }
 
