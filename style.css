@@ -1,66 +1,63 @@
 @font-face {
-    font-family: "Chakra Petch";
-    src: url(ChakraPetch-Bold.ttf);
+  font-family: "Chakra Petch";
+  src: url(ChakraPetch-Bold.ttf);
 }
 
-body{
-    background: #010810;
-    background: linear-gradient(0deg,#000407 10%, #020F1E 80%, #124079 100%);
-    height: 100dvh;
-    overflow: hidden;
+.body-index {
+  background: #010810;
+  background: linear-gradient(0deg, #000407 10%, #020f1e 80%, #124079 100%);
+  height: 100dvh;
+  overflow: hidden;
 }
 
-#titulo h1{   
-    color: #6BD1FF;
-    font-family: "Chakra Petch";
-    font-size: 5vw;
-    font-weight: 700;
-    margin-top: 4vh;
-    margin-bottom: 0px;
+.container-index {
+  margin: 16.7vh 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
 }
 
-h2{
-    font-family: 'Inter', sans-serif;
-    font-size: 3vw;
-    font-weight: lighter;
-    color: #FFFFFF;
-    margin: 0px;
+.cabecalho-index {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-main{
-    margin: 16.7vh 15vw;
-    display: flex;
-    flex-direction: column;
-    align-items: start;
+.titulo-index {
+  color: #6bd1ff;
+  font-family: "Chakra Petch";
+  font-size: 5vw;
+  font-weight: 700;
+  margin-top: 4vh;
+  margin-bottom: 0px;
 }
 
-#titulo{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+.subtitulo-index {
+  font-family: "Inter", sans-serif;
+  font-size: 3vw;
+  font-weight: lighter;
+  color: #ffffff;
+  margin: 0px;
 }
 
-#linha{
-    position: absolute;
-    bottom: 15vh;
-    width: 60%;
+.imagemLinha {
+  position: absolute;
+  bottom: 15vh;
+  width: 60%;
 }
 
-#barras{
-    width: 27vw;
-
+.imagemBarras {
+  width: 27vw;
+}
+.imagemFrontEnd {
+  width: 10vw;
+  margin-bottom: 3vh;
+  transition: transform 0.5s;
 }
 
-#frontEnd{
-    width: 10vw;
-    margin-bottom: 3vh;    
-    transition: transform 0.5s;
-}
-
-#frontEnd:hover {
-    cursor: pointer;
-    transform: scale(1.1);
-    transition: transform 0.5s;
+.imagemFrontEnd:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: transform 0.5s;
 }
